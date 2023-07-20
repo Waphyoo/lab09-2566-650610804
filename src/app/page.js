@@ -31,6 +31,11 @@ export default function Home() {
     task.completed = !task.completed;
     setTasks(newTasks);
   };
+  const [count,setCount]=useState(0);
+  
+  const increaseBtnOnclick=()=>{
+    setCount(count + 1);
+  };
 
   return (
     // Main container

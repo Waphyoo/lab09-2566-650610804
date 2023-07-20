@@ -10,7 +10,7 @@ export const Task = ({
   };
 
   const DoneBtnOnClick = ()=>{
-    ompletce = toggleDoneTaskFfunc(id);
+    complete = toggleDoneTaskFunc(id);
   };
 
   return (
