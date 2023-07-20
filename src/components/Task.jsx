@@ -22,6 +22,7 @@ export const Task = ({
         <span>{title}</span>
       */}
       <span className={completed ? "text-decoration-line-through": ""}>{title}</span>
+      {title}
       <button className="btn btn-success" onClick={DoneBtnOnClick}>Done</button>
       <button className="btn btn-danger" onClick={deleteBtnOnClick}>
         Delete
