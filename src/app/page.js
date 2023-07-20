@@ -41,7 +41,7 @@ export default function Home() {
       <div style={{ maxWidth: "400px" }} className="mx-auto">
         {/* Task summary */}
         <p className="text-center text-secondary fst-italic">
-          All ({task.length}) Done ({
+          All ({tasks.length}) Done ({
             task.filter((task)=>task.completed==true).length
           })
         </p>
