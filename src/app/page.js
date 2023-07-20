@@ -42,7 +42,7 @@ export default function Home() {
         {/* Task summary */}
         <p className="text-center text-secondary fst-italic">
           All ({tasks.length}) Done ({
-            task.filter((task)=>task.completed==true).length
+            tasks.filter((task)=>task.completed==true).length
           })
         </p>
         {/* task input */}
