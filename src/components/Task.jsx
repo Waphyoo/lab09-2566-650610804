@@ -10,7 +10,7 @@ export const Task = ({
   };
 
   const DoneBtnOnClick = ()=>{
-    complete = toggleDoneTaskFfunc(id);
+    ompletce = toggleDoneTaskFfunc(id);
   };
 
   return (
@@ -21,7 +21,7 @@ export const Task = ({
         But if task is not completed : 
         <span>{title}</span>
       */}
-      <span className={complete ? "text-decoration-line-through": ""}>{title}</span>
+      <span className={completed ? "text-decoration-line-through": ""}>{title}</span>
       <button className="btn btn-success" onClick={DoneBtnOnClick}>Done</button>
       <button className="btn btn-danger" onClick={deleteBtnOnClick}>
         Delete
